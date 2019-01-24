@@ -9,6 +9,8 @@ from skimage.transform import resize
 import torch
 from torch.autograd import Variable
 import numpy as np
+from pytesseract import image_to_string as im2s
+
 class telugu_data(Dataset):
 
     def __init__(self,subset):
