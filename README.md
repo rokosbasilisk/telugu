@@ -1,3 +1,3 @@
-implementing a crnn in pytorch for recognizing telugu printed text and handwritten
-
-TODO:do a ppt 
+build a single character model 
+collect handwritten text on blocks of paper 
+explore tesseract
